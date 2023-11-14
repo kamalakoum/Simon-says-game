@@ -3,11 +3,11 @@ const red = document.querySelector("#red");
 const yellow = document.querySelector("#yellow");
 const blue = document.querySelector("#blue");
 const title = document.querySelector("#level-title");
-let audioGreen = document.getElementById('clip1');
-let audioRed = document.getElementById('clip2');
-let audioYellow = document.getElementById('clip3');
-let audioBlue = document.getElementById('clip4');
-let audioGameOver = document.getElementById('clip5');
+const audioGreen = document.getElementById('clip1');
+const audioRed = document.getElementById('clip2');
+const audioYellow = document.getElementById('clip3');
+const audioBlue = document.getElementById('clip4');
+const audioGameOver = document.getElementById('clip5');
 
 let levelCount = 1;
 let canClick = false;
